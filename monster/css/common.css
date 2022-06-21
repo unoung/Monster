@@ -1,0 +1,33 @@
+body {
+  background-color: black;
+}
+.wrap {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+header,
+section,
+footer {
+  width: 100%;
+  float: left;
+  /* background-color: antiquewhite; */
+}
+
+.in_header,
+.container,
+.in_footer {
+  width: 1600px;
+  margin: 0 auto;
+  /* background-color: aquamarine; */
+}
+
+@media (max-width: 500px) {
+  .in_header,
+  .container,
+  .in_footer {
+    width: 95%;
+    margin: 0 auto;
+    /* background-color: aquamarine; */
+  }
+}
